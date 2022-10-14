@@ -48,7 +48,7 @@ defmodule Crawly.Mixfile do
     [
       {:httpoison, "~> 1.7"},
       {:elixir_uuid, "~> 1.2"},
-      {:poison, "~> 3.1"},
+      {:poison, "~> 4.0"},
       {:gollum, "~> 0.4.0", hex: :new_gollum},
       {:plug_cowboy, "~> 2.0"},
       {:credo, "~> 1.5.0", only: [:dev, :test], runtime: false},
